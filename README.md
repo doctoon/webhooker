@@ -1,7 +1,7 @@
 # webhooker
 A Simple Tool that lets you interact with discord webhooks easily [kinda like.. a hook that you use to hold onto things, it 'hooks' into your webhook and lets you do many fun things]! [About 11-17MB]
 
-note that im not responsible for any trolling\
+note that im not responsible for any trolling
 
 # build thingy or smth
 this is currently a windows-only tool [but you can change that], but i have provided all the icon files and the original code for the project\
@@ -11,7 +11,6 @@ and then run it using the following command:\
 `pyinstaller --onefile --icon=webhooker.ico webhooker.py`
 or use build.bat [note that idk if you can do this on linux and macos]\
 [i dont have a virtual machine for any of these os's so i cant quickly update or make non-windows versions, sadly :<]\
--# can you do github subtext or is that only on discord i dont remember\
 
 Available Commands:\
 -=setup : Configure the webhook URL.\
