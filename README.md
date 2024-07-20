@@ -1,26 +1,37 @@
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen)
-# 🚀 **This project is open source, yayyy!** 🚀
+# 🚀 **This project is open source, yayyy!** 🚀 ![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen)<br>
+Feel free to expand upon this silly idea :3 
+  ![Webhooker Image](webhooker.png)
 
-# Webhooker
-A Simple Tool that lets you interact with discord webhooks easily! [About 11-17MB]\
-[kinda like.. a hook that you use to hold onto things, it 'hooks' into your webhook and lets you do many fun things]!
+# Webhooker 🪝
+A simple tool that lets you interact with Discord webhooks  easily. [About 11-17MB]<br>
+Think of it as a hook that 'hooks' into your webhook and lets you do many fun things!
+> Note: I’m not responsible for any trolling.
 
-note that im not responsible for any trolling
+## Build Instructions 🛠️
+Normally, you only get a windows version. however...
+You can build Webhooker on any OS with Python and PyInstaller! Follow these steps:
+0. **Install Python:**\
+Before doing pip and python stuff, you must [download python](https://www.python.org/downloads/).
+1. **Install PyInstaller:**\
+  `pip install pyinstaller`
+2. **Run the build script:**\
+   `python build.py`\
+   PyInstaller will automatically build the tool for your OS.
+3. **Bonus Step | Zip File (Optioanl):**\
+  `python release.py`\
+  This creates a zip file that you can upload anywhere!
 
-# build thingy or smth
-this is currently a windows-only tool [but you can change that], but i have provided all the icon files and the original code for the project\
-if you're on any os that isnt windows, simply install pyinstaller\
-`pip install pyinstaller` [you need python first]\
-and then run it using the following command:\
-`pyinstaller --onefile --icon=webhooker.ico webhooker.py`
-or use build.bat [note that idk if you can do this on linux and macos]\
-[i dont have a virtual machine for any of these os's so i cant quickly update or make non-windows versions, sadly :<]\
+## Available Commands 🖥️
+- `-=setup` : Configure the webhook URL.
+- `-=embed` : Start the setup guide to send an embed.
+- `-=image` : Send an image from a URL.
+- `-=send-file` : Send a file from your computer.
+- `-=edit [message id] [new content]` : Edit a message with the specified ID.
+- `-=settitle [title]` : Set the title of the application.
+- `-=help [asMessage]` : Show this help message. If 'asMessage' is provided, the help message will be sent to the Discord channel.
+- `-=debug [asMessage]` : Show the current version and other info. If 'asMessage' is provided, the message will be sent to the Discord channel.
+- `-=quit`, `-=exit`, `-=close`, `-=end` : Close the currently running window.
 
-Available Commands:\
--=setup : Configure the webhook URL.\
--=embed : Start the setup guide to send an embed.\
--=image : Send an image from a URL.\
--=image-file : Send an image from a "select this image" dialog.\
--=edit [message id] [new content] : Edit a message with the specified ID.\
--=settitle [title] : Set the title of the application.\
--=help [asMessage] : Show this help message. If 'asMessage' is provided, the help message will be sent to the Discord channel.\
+## License 📜
+
+This project is open source and available under the [MIT License](LICENSE).
