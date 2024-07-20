@@ -1,5 +1,5 @@
 # 🚀 **This project is open source, yayyy!** 🚀 ![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen)<br>
-Feel free to expand upon this silly idea :3 
+Feel free to expand upon this silly idea :3 <br>
   ![Webhooker Image](webhooker.png)
 
 # Webhooker 🪝
