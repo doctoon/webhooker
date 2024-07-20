@@ -1,5 +1,9 @@
-# webhooker
-A Simple Tool that lets you interact with discord webhooks easily [kinda like.. a hook that you use to hold onto things, it 'hooks' into your webhook and lets you do many fun things]! [About 11-17MB]
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen)
+# 🚀 **This project is open source, yayyy!** 🚀
+
+# Webhooker
+A Simple Tool that lets you interact with discord webhooks easily! [About 11-17MB]\
+[kinda like.. a hook that you use to hold onto things, it 'hooks' into your webhook and lets you do many fun things]!
 
 note that im not responsible for any trolling
 
