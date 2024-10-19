@@ -9,7 +9,7 @@ Think of it as a hook that 'hooks' into your webhook and lets you do many fun th
 
 ## Build Instructions 🛠️
 Normally, you only get a windows version. however...
-You can build Webhooker on any OS with Python and PyInstaller! Follow these steps:
+You can build Webhooker on any OS with Python and PyInstaller! Follow these steps:\
 0. **Install Python:**\
 Before doing pip and python stuff, you must [download python](https://www.python.org/downloads/).
 1. **Install PyInstaller:**\
